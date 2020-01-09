@@ -11276,7 +11276,7 @@ var $author$project$Pages$Home$view = function (settings) {
 								_List_fromArray(
 									[
 										$elm$html$Html$Attributes$src(
-										$author$project$Asset$image('profile-picture.jpg')),
+										$author$project$Asset$image('profile-picture.JPG')),
 										$elm$html$Html$Attributes$class('w-full h-auto object-cover')
 									]),
 								_List_Nil)
@@ -11317,7 +11317,7 @@ var $author$project$Pages$Home$view = function (settings) {
 									]),
 								_List_fromArray(
 									[
-										$elm$html$Html$text('Website site still under developement, and still searching for a cool picture.')
+										$elm$html$Html$text('Website still under developement, and still searching for a cool picture.')
 									])),
 								A2(
 								$elm$html$Html$a,
@@ -11343,6 +11343,7 @@ var $author$project$Pages$Home$view = function (settings) {
 					[
 						$elm$html$Html$text('Projects')
 					])),
+				A7($author$project$Pages$Home$project, 'https://github.com/robsel118/portfolio', 'portfolio.png', 'Portfolio website in Elm', 'Remade my my portfolio website using the Elm language', textColor, backgroundColor, hoverColor),
 				A7($author$project$Pages$Home$project, 'https://github.com/robsel118/flutter_travel_app_challenge', 'flutter_travel_app.png', 'Flutter Travel App Design', 'Recreaction of a design found in Dribble. Made in Flutter', textColor, backgroundColor, hoverColor),
 				A7($author$project$Pages$Home$project, 'https://github.com/robsel118/Junction_2019', 'junction-2019.png', 'Social Judgment Day', 'App made during Junction 2019', textColor, backgroundColor, hoverColor)
 			]));
@@ -11513,7 +11514,7 @@ var $author$project$View$view = function (model) {
 								_List_fromArray(
 									[
 										$elm$html$Html$Events$onClick($author$project$Messages$ToggleDarkMode),
-										$elm$html$Html$Attributes$class('p-2 float-right')
+										$elm$html$Html$Attributes$class('p-2 float-right cursor-pointer')
 									]),
 								_List_fromArray(
 									[$author$project$Icons$sun]))
@@ -12211,7 +12212,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54769" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61292" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
